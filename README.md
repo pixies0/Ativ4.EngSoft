@@ -22,14 +22,14 @@ Os requisitos funcionais, descritos para esse sistema, são: **Agendar um horár
     • Nome: Agendar um horário.
     • Número: 01.
     • Atores: Cliente, Funcionário.
-    • Finalidade: Marcar uma hora de visitação do cliente.
+    • Finalidade: Marcar uma data e hora para visitação do cliente.
     • Visão geral: Este caso de uso tem como função efetuar  um determinado agendamento no sistema.
     • Tipo: Essencial
 
 **Ações do atores:**
 
-1. Cliente faz contato ou vai até a instalação e deseja marcar uma hora para cuidar de sua aparência.
-2. Cliente informa seu nome, horário de sua preferência, e o tipo de abordagem.
+1. Cliente faz contato ou vai até a instalação e deseja marcar uma data e hora para cuidar de sua aparência.
+2. Cliente informa seu nome, período de sua preferência, e o tipo de abordagem.
 3. O funcionário cataloga as informações recem coletadas do cliente através do formulário em questão.
 
 **Respostas do sistema:**
@@ -47,3 +47,45 @@ Os requisitos funcionais, descritos para esse sistema, são: **Agendar um horár
 2.1. Funcionário informa que não há disponibilidade naquela Data.
 
 2.2. Sistema exibe horários disponiveis para o dia utíl seguinte.
+
+**Requisito 2:**
+
+    • Nome: Visualizar horários do dia.
+    • Número: 02.
+    • Atores: Cliente, Funcionário.
+    • Finalidade: Verificar disponibilidade de horários no dia em questão.
+    • Visão geral: Este caso de uso tem como função auxiliar o usuário do sistema (funcionário, no caso) a checar os períodos disponiveis na data em questão.
+    • Tipo: Essencial
+
+**Ações do atores:**
+
+1. Cliente deseja saber a disponibilidade do barbeiro em determinada data ou deseja desmarcar/remarcar sua visita.
+2. Funcionário responde ao cliente seus horários vagos/disponiveis.
+3. Cliente escolhe o momento de sua preferência confirmando agendamento com o funcionário.
+4. Funcionário confirma e agenda horário com cliente.
+
+**Respostas do sistema:**
+
+1. Sistema exibe a tela de Agendados do dia.
+2. Sistema se prepara para futura inserção.
+3. Sistema grava informações.
+4. Sistema registra o agendamento.
+
+**Tratamento de Exceções:**
+
+1.1. Funcionário verifica horários vagos para remobilização do agendamento anterior.
+
+1.2. Sistema disponibiliza tela de agendamento para alteração.
+
+2.1. Funcionário informa ao cliente que não existe disponibilidade em tal data.
+
+2.2. Sistema encerra o agendamento .
+
+### Descrevendo o User Stories para os requisitos:
+
+**Requisito 1:** < Agendar um horário >
+
+Como um < recepcionista > eu < preciso > de < permissões > especiais para < agendar > um novo horário no sistema.
+
+**Requisito 2:** < Visualizar horários do dia >
+Como um < cliente > eu < desejo > de forma breve < saber > um horário que se adapte à minha disponibilidade para < marcar > na data de hoje.
