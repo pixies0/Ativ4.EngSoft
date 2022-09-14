@@ -91,7 +91,7 @@ Como um < recepcionista > eu < preciso > de < permissões > especiais para < age
 
 Como um < cliente > eu < desejo > de forma breve < saber > um horário que se adapte à minha disponibilidade para < marcar > na data de hoje.
 
-4 - **Protótipo das telas de cada requisito:**
+### Protótipo de telas dos requisitos propostos:
 
 **Requisito:** Agendar um horário
 
@@ -99,4 +99,4 @@ Como um < cliente > eu < desejo > de forma breve < saber > um horário que se ad
 
 **Requisito:** Visualizar horários do dia
 
-<img src="assets/marcadosdodia" alt="drawing" width="600"/>
+<img src="assets/marcadosdodia.png" alt="drawing" width="600"/>
