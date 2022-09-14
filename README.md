@@ -103,4 +103,4 @@ Como um < cliente > eu < desejo > de forma breve < saber > um horário que se ad
 
 **Resultado:**
 
-<img src="assets/animacao.mp4" alt="drawing" width="600"/>
+<img src="assets/animacao.gif" alt="drawing" width="600"/>
