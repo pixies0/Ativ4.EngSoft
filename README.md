@@ -88,4 +88,15 @@ Os requisitos funcionais, descritos para esse sistema, são: **Agendar um horár
 Como um < recepcionista > eu < preciso > de < permissões > especiais para < agendar > um novo horário no sistema.
 
 **Requisito 2:** < Visualizar horários do dia >
+
 Como um < cliente > eu < desejo > de forma breve < saber > um horário que se adapte à minha disponibilidade para < marcar > na data de hoje.
+
+4 - **Protótipo das telas de cada requisito:**
+
+**Requisito:** Agendar um horário
+
+<img src="assets/Agendamento.png" alt="drawing" width="600"/>
+
+**Requisito:** Visualizar horários do dia
+
+<img src="assets/marcadosdodia" alt="drawing" width="600"/>
