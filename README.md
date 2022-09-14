@@ -100,3 +100,7 @@ Como um < cliente > eu < desejo > de forma breve < saber > um horário que se ad
 **Requisito:** Visualizar horários do dia
 
 <img src="assets/marcadosdodia.png" alt="drawing" width="600"/>
+
+**Resultado:**
+
+<img src="assets/animacao.gif" alt="drawing" width="600"/>
