@@ -104,3 +104,7 @@ Como um < cliente > eu < desejo > de forma breve < saber > um horário que se ad
 **Resultado:**
 
 <img src="assets/animacao.gif" alt="drawing" width="600"/>
+
+### LINK PARA O PROJETO DO FIGMA
+
+https://www.figma.com/community/file/1151904328605487120
